@@ -5,3 +5,5 @@ cred.txt
 *.exe
 *.VaultCredentials
 *.vdi
+*.vhd
+*.vhdx

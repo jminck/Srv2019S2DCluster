@@ -7,7 +7,7 @@ $diskcount = 0
 
 for ($node = 1; $node -le $nodes; $node++)
 	{
-		$vhdpath = ".\.vagrant\machines\ssdnode" + $node + "\hyperv\Virtual Hard Disks"
+		$vhdpath = "..\..\.vagrant\machines\ssdnode" + $node + "\hyperv\Virtual Hard Disks"
 		for ($disk = 1; $disk -le $disks ;$disk++ )
 		{
 			$vmname = $vmbasename + $node
