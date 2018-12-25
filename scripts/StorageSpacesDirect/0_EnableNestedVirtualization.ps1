@@ -1,4 +1,4 @@
-$vmlist = @("ssdnode1","ssdnode2","ssdnode3")
+$vmlist = @("ssdnode1","ssdnode2","ssdnode3","ssdnode4")
 foreach ($vm in $vmlist)
 {
 	Stop-VM $vm -force

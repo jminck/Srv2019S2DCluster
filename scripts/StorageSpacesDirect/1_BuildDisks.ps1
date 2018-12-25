@@ -1,6 +1,6 @@
 ﻿#this script creates and attaches data disks to each of the cluster meembers for use in the storage pool
 
-$nodes = 3
+$nodes = 4
 $disks = 5
 $vmbasename = "ssdnode"
 $diskcount = 0

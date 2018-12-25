@@ -1,1 +1,0 @@
-﻿Test-Cluster –Node ssdnode1,ssdnode12,ssdnode3 –Include "Storage Spaces Direct", "Inventory", "Network", "System Configuration"

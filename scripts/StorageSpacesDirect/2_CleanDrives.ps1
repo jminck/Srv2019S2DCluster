@@ -1,4 +1,4 @@
-﻿$ServerList = "ssdnode1", "ssdnode2", "ssdnode3"
+﻿$ServerList = "ssdnode1", "ssdnode2", "ssdnode3", "ssdnode4"
 
 Invoke-Command ($ServerList) {
     Update-StorageProviderCache
